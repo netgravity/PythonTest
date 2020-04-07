@@ -1,6 +1,6 @@
 def decorator_function(orig):
     def wrapper_function(*args, **kwargs):
-        print ('this one ran forst')
+        print ('this one ran first')
         return orig(*args, **kwargs)
     # print('ran first')
     # return orig()
